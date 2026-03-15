@@ -4,22 +4,22 @@ class Ops < Formula
   version "0.1.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/rsvalerio/cargo-ops/releases/download/cargo-ops-v0.1.0/cargo-ops-aarch64-apple-darwin.tar.xz"
-      sha256 "a4013e03f370bb133f5cb64f2c8b3524641b4fdabe92aa75a4564c46eba22436"
+      url "https://github.com/rsvalerio/cargo-ops/releases/download/v0.1.0/cargo-ops-aarch64-apple-darwin.tar.xz"
+      sha256 "27b45283dddd68b666d8237ea3a05bca926c0cdde5f1fa16705e9066f22552bf"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/rsvalerio/cargo-ops/releases/download/cargo-ops-v0.1.0/cargo-ops-x86_64-apple-darwin.tar.xz"
-      sha256 "7e50ed46095b07c8b1bf3dccc1278a7ff9d5ddb46e9b42a6dad53b9de7215563"
+      url "https://github.com/rsvalerio/cargo-ops/releases/download/v0.1.0/cargo-ops-x86_64-apple-darwin.tar.xz"
+      sha256 "6e948d9c5a00a25e673c40686ef9d4b790339da75e1bde460c3cda2efc0737bd"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/rsvalerio/cargo-ops/releases/download/cargo-ops-v0.1.0/cargo-ops-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "656d1e12f46bbd3d7c69d1e804d6c47aeca3732decd3ee11210725042f27b0f8"
+      url "https://github.com/rsvalerio/cargo-ops/releases/download/v0.1.0/cargo-ops-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "1fa8051b9c686ee009828feb52cc2c48675348eb684cadd0ac1da8f14caad05d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/rsvalerio/cargo-ops/releases/download/cargo-ops-v0.1.0/cargo-ops-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "f85c6e066c6be30ebaef72384b894c97ebae8da0854881b556d50d1732867ce2"
+      url "https://github.com/rsvalerio/cargo-ops/releases/download/v0.1.0/cargo-ops-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "df8c81d3c18b08db584cd3c6db5ccaf5e30ecdabddaccbbd69b7d6ec3c2ac4c5"
     end
   end
   license "Apache-2.0"
