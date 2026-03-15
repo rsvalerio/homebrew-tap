@@ -1,25 +1,25 @@
 class Ops < Formula
   desc "Batteries-included task runner for any stack"
   homepage "https://github.com/rsvalerio/cargo-ops"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/rsvalerio/cargo-ops/releases/download/v0.1.0/cargo-ops-aarch64-apple-darwin.tar.xz"
-      sha256 "27b45283dddd68b666d8237ea3a05bca926c0cdde5f1fa16705e9066f22552bf"
+      url "https://github.com/rsvalerio/cargo-ops/releases/download/v0.2.0/cargo-ops-aarch64-apple-darwin.tar.xz"
+      sha256 "8fb907287a8ab96f13a49ce55275bef1a47b095b239d132235e8427e3ed72d8e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/rsvalerio/cargo-ops/releases/download/v0.1.0/cargo-ops-x86_64-apple-darwin.tar.xz"
-      sha256 "6e948d9c5a00a25e673c40686ef9d4b790339da75e1bde460c3cda2efc0737bd"
+      url "https://github.com/rsvalerio/cargo-ops/releases/download/v0.2.0/cargo-ops-x86_64-apple-darwin.tar.xz"
+      sha256 "ea71705ffac782b18cf7dd3e325936be8ada56424cb9bc6629e5bebe75c2da4f"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/rsvalerio/cargo-ops/releases/download/v0.1.0/cargo-ops-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "1fa8051b9c686ee009828feb52cc2c48675348eb684cadd0ac1da8f14caad05d"
+      url "https://github.com/rsvalerio/cargo-ops/releases/download/v0.2.0/cargo-ops-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "2efdf9d07c145f3e2a8ca8fe201217023f7ede392dd4f2899d17b2a98c524f82"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/rsvalerio/cargo-ops/releases/download/v0.1.0/cargo-ops-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "df8c81d3c18b08db584cd3c6db5ccaf5e30ecdabddaccbbd69b7d6ec3c2ac4c5"
+      url "https://github.com/rsvalerio/cargo-ops/releases/download/v0.2.0/cargo-ops-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "b4255ec9f04d3c6601197c8720d050af78463ff12509e452adf33d2dfd1a3477"
     end
   end
   license "Apache-2.0"
