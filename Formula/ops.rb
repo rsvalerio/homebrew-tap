@@ -1,25 +1,25 @@
 class Ops < Formula
   desc "Batteries-included task runner for any stack"
   homepage "https://github.com/rsvalerio/ops"
-  version "0.28.0"
+  version "0.29.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/rsvalerio/ops/releases/download/v0.28.0/ops-aarch64-apple-darwin.tar.gz"
-      sha256 "68ab1352e8faf80932560927bf0f27a0ac118a0b5542757deea2be369338ee3d"
+      url "https://github.com/rsvalerio/ops/releases/download/v0.29.0/ops-aarch64-apple-darwin.tar.gz"
+      sha256 "bbb4ab1bdb21df6d8f5644652e3ca1afedc46d808cc843fef15a052dd42a7cb1"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/rsvalerio/ops/releases/download/v0.28.0/ops-x86_64-apple-darwin.tar.gz"
-      sha256 "174255984b34d60728218081eede88597a8b47f6a07d7169790bb7806e70df23"
+      url "https://github.com/rsvalerio/ops/releases/download/v0.29.0/ops-x86_64-apple-darwin.tar.gz"
+      sha256 "d0e92bd6e2f1a316867db8585a9852b7dac7bca80449349c65216a4bfef33076"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/rsvalerio/ops/releases/download/v0.28.0/ops-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "36743518f49f333e17d2e738be1622602923363c49b4a4cd8e83db0568dd7b77"
+      url "https://github.com/rsvalerio/ops/releases/download/v0.29.0/ops-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "df69e48df8346b2a01318d52cbab0a0a730404017253a41e21c842998ac1494a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/rsvalerio/ops/releases/download/v0.28.0/ops-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ec6b5c2fc063b66b63a79ae0b04463885fbb75c0affbe0b118897acc8a3bb072"
+      url "https://github.com/rsvalerio/ops/releases/download/v0.29.0/ops-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "7c4384fae80859c23e90c3fc0c6d9bc463a37963c60aa20f8944eec897a4cae5"
     end
   end
   license "Apache-2.0"
