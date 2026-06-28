@@ -1,25 +1,25 @@
 class Oxydraw < Formula
   desc "Self-hosted Excalidraw collaboration backend, in Rust"
   homepage "https://github.com/rsvalerio/oxydraw"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/rsvalerio/oxydraw/releases/download/v0.1.0/oxydraw-aarch64-apple-darwin.tar.gz"
-      sha256 "571e8909d380d14b3cc93eeaec02e81a9fff3443475d1a2118ce0c6d1a77836b"
+      url "https://github.com/rsvalerio/oxydraw/releases/download/v0.2.0/oxydraw-aarch64-apple-darwin.tar.gz"
+      sha256 "e0dd7cea6f785decb877b80fa368e1ed8221cfd739df0e32ccb2793a46c1802c"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/rsvalerio/oxydraw/releases/download/v0.1.0/oxydraw-x86_64-apple-darwin.tar.gz"
-      sha256 "f0c7a17760a46dae2aa3a189c09dcb04acb26bf06154ae440db4ebea6b2b6ae4"
+      url "https://github.com/rsvalerio/oxydraw/releases/download/v0.2.0/oxydraw-x86_64-apple-darwin.tar.gz"
+      sha256 "eb077fc7ec3d9673b23551eda3e080fb9d87cb88d2d66235c37c3255a2d22669"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/rsvalerio/oxydraw/releases/download/v0.1.0/oxydraw-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6524492dee7a711da650e98767cc9b26231c57e410be680ae805887173843ae7"
+      url "https://github.com/rsvalerio/oxydraw/releases/download/v0.2.0/oxydraw-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0cdcacb5153eae586329105f03c3c020c6c0cd4dfb6fc5862139b5c91b0db9d3"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/rsvalerio/oxydraw/releases/download/v0.1.0/oxydraw-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ceb9dab7431885f09653135bb7532eb612e9ad033e37be8d696bab13b218c183"
+      url "https://github.com/rsvalerio/oxydraw/releases/download/v0.2.0/oxydraw-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "eee7d7dd4e33ab519abe95f30d432a18ab547543e54361e6d4660e4cc229be5c"
     end
   end
   license "Apache-2.0"
