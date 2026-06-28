@@ -5,21 +5,21 @@ class Oxydraw < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/rsvalerio/oxydraw/releases/download/v0.1.0/oxydraw-aarch64-apple-darwin.tar.gz"
-      sha256 "451b67104e57dd36aaf79ea5f7377ca7904d7f952cb9130ebe434c80bbd8852e"
+      sha256 "571e8909d380d14b3cc93eeaec02e81a9fff3443475d1a2118ce0c6d1a77836b"
     end
     if Hardware::CPU.intel?
       url "https://github.com/rsvalerio/oxydraw/releases/download/v0.1.0/oxydraw-x86_64-apple-darwin.tar.gz"
-      sha256 "c1c77cf2db528840087d999b1277c2b325b9b5f8c3dfc992dac7d78ff816d15c"
+      sha256 "f0c7a17760a46dae2aa3a189c09dcb04acb26bf06154ae440db4ebea6b2b6ae4"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/rsvalerio/oxydraw/releases/download/v0.1.0/oxydraw-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "fbf6dfd48393e905c240291f7a3d6eecae262d66da389fc0107d00670339fcb1"
+      sha256 "6524492dee7a711da650e98767cc9b26231c57e410be680ae805887173843ae7"
     end
     if Hardware::CPU.intel?
       url "https://github.com/rsvalerio/oxydraw/releases/download/v0.1.0/oxydraw-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "555aac6b07b81c6418e8b4e97a0a120d2573f6dcd0d2e53da84bd6ce3aab545e"
+      sha256 "ceb9dab7431885f09653135bb7532eb612e9ad033e37be8d696bab13b218c183"
     end
   end
   license "Apache-2.0"
